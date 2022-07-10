@@ -1,7 +1,6 @@
 import "../styles/globals.css";
 import type { AppProps } from "next/app";
 import { useRouter } from "next/router";
-import { NavBar } from "./components/NavBar";
 //error?
 import store from "../redux/store";
 import { Provider } from "react-redux";

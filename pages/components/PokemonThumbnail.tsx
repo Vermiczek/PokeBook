@@ -166,3 +166,5 @@ export const PokemonThumbnail = ({ link, router }: props) => {
     );
   return <></>;
 };
+
+export default PokemonThumbnail;

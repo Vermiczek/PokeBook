@@ -69,3 +69,5 @@ export const TypeInfo = ({ type }: props) => {
       </StyledTypeInfo>
     );
 };
+
+export default TypeInfo;

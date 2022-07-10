@@ -25,3 +25,5 @@ export const InputField = ({ callbackFunction, inputName }: props) => {
     </StyledInput>
   );
 };
+
+export default InputField;

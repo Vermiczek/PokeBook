@@ -83,3 +83,5 @@ export const EvolutionChain = ({ evochain, router }: props) => {
   }
   return <div>xd</div>;
 };
+
+export default EvolutionChain;

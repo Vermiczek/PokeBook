@@ -11,7 +11,7 @@ interface props {
   name: string;
 }
 
-export const PokemonPicture = ({ fronturl, backurl, name}: props) => {
+export const PokemonPicture = ({ fronturl, backurl, name }: props) => {
   const [currentUrl, setCurrentUrl] = useState(fronturl);
   const toggleUrl = () => {
     if (currentUrl === fronturl) setCurrentUrl(backurl);
@@ -34,21 +34,22 @@ export const PokemonPicture = ({ fronturl, backurl, name}: props) => {
         initial={{ opacity: 0 }}
         exit={{ opacity: 0, transition: { duration: 1 } }}
       >
-        
-          <div
-            className="pokemon-sprite"
-            onClick={() => {
-              toggleUrl();
-            }}
-            style={{
-              height: "17rem",
-              width: "17rem",
-              backgroundSize: "100%",
-              backgroundImage: `url(${currentUrl})`,
-            }}
-          ></div>
+        <div
+          className="pokemon-sprite"
+          onClick={() => {
+            toggleUrl();
+          }}
+          style={{
+            height: "17rem",
+            width: "17rem",
+            backgroundSize: "100%",
+            backgroundImage: `url(${currentUrl})`,
+          }}
+        ></div>
         <div>{name}</div>
       </StyledPokemonPicture>
     );
   else return <div></div>;
 };
+
+export default PokemonPicture;

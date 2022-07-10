@@ -108,3 +108,5 @@ export const SkillTemplate = () => {
     </StyledSkillTemplate>
   );
 };
+
+export default Skill;

@@ -182,3 +182,5 @@ export const PokemonStats = ({ stats }: any) => {
     return <></>;
   }
 };
+
+export default PokemonStats;

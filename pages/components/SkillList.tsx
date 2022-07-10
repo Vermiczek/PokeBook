@@ -23,3 +23,5 @@ export const SkillList = (data: any) => {
     </StyledSkillList>
   );
 };
+
+export default SkillList;

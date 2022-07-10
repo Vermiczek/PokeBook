@@ -57,3 +57,5 @@ export const AbilityData = ({ abilityData }: any) => {
 
   return <StyledAbilities>{abiMap}</StyledAbilities>;
 };
+
+export default AbilityData;

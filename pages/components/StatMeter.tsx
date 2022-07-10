@@ -32,3 +32,5 @@ export const StatMeter = ({ name, value, maxValue, color }: props) => {
     </StyledStatMeter>
   );
 };
+
+export default StatMeter;

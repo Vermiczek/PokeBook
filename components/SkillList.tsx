@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { StyledSkillList } from "../../styles/SkillList.Styled";
+import { StyledSkillList } from "../styles/SkillList.Styled";
 import { Skill, SkillTemplate } from "./Skill";
 
 export const SkillList = (data: any) => {

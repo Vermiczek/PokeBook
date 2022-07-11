@@ -1,9 +1,9 @@
 import { NextRouter } from "next/router";
 import { useEffect, useState } from "react";
 
-import { StyledPokemonThumbnail } from "../../styles/PokemonThumbnail.styled";
+import { StyledPokemonThumbnail } from "../styles/PokemonThumbnail.styled";
 import { useDispatch } from "react-redux";
-import { setPokemon, setScreen } from "../../redux/redux";
+import { setPokemon, setScreen } from "../redux/redux";
 import { TypeInfo } from "./TypeInfo";
 import { motion, useAnimation } from "framer-motion";
 

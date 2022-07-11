@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { StyledStatMeter } from "../../styles/StatMeter.styled";
+import { StyledStatMeter } from "../styles/StatMeter.styled";
 
 interface props {
   name: string;

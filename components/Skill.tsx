@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { StyledSkill, StyledSkillTemplate } from "../../styles/Skill.styled";
+import { StyledSkill, StyledSkillTemplate } from "../styles/Skill.styled";
 
 interface props {
   link: string;

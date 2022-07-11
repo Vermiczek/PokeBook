@@ -2,8 +2,8 @@ import { motion } from "framer-motion";
 import { set } from "immer/dist/internal";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
-import { StyledNavButton } from "../../styles/NavButton.styled";
-import { StyledPokemonPicture } from "../../styles/PokemonPicture.styled";
+import { StyledNavButton } from "../styles/NavButton.styled";
+import { StyledPokemonPicture } from "../styles/PokemonPicture.styled";
 
 interface props {
   fronturl: string;

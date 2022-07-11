@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { StyledAbilities } from "../../styles/AbilityData.styled";
+import { StyledAbilities } from "../styles/AbilityData.styled";
 
 interface abitableElement {
   description: string;

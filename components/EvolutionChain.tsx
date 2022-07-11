@@ -1,8 +1,8 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import { StyledInput } from "../../styles/InputField.styled";
+import { StyledInput } from "../styles/InputField.styled";
 import { useSelector, useDispatch } from "react-redux";
-import { StyledEvolutionChain } from "../../styles/EvolutionChain.styled";
+import { StyledEvolutionChain } from "../styles/EvolutionChain.styled";
 import { NextRouter } from "next/router";
 import { PokemonThumbnail } from "./PokemonThumbnail";
 

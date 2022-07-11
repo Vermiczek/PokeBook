@@ -7,7 +7,7 @@ import {
   RadarChart,
 } from "recharts";
 
-import { StyledPokemonStats } from "../../styles/PokemonStats.styled";
+import { StyledPokemonStats } from "../styles/PokemonStats.styled";
 import { StatMeter } from "./StatMeter";
 
 //Pokemon stats, radar chart and some lines idk

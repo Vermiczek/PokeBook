@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import { InputField } from "./components/InputField";
+import { InputField } from ".././components/InputField";
 import { useSelector, useDispatch } from "react-redux";
 import { setList, selectList, selectScreen } from "../redux/redux";
-import { PokemonThumbnail } from "./components/PokemonThumbnail";
+import { PokemonThumbnail } from ".././components/PokemonThumbnail";
 import { useRouter } from "next/router";
 import { StyledPokemonList } from "../styles/PokemonList.styled";
 import { motion } from "framer-motion";

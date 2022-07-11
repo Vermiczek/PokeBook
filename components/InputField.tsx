@@ -1,5 +1,5 @@
 import React from "react";
-import { StyledInput } from "../../styles/InputField.styled";
+import { StyledInput } from "../styles/InputField.styled";
 
 interface props {
   callbackFunction: Function;

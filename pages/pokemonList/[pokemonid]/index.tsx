@@ -1,13 +1,13 @@
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import { StyledPokemonIndex } from "../../../styles/PokemonIndex.styled";
-import { PokemonPicture } from "../../components/PokemonPicture";
-import { TypeInfo } from "../../components/TypeInfo";
-import { EvolutionChain } from "../../components/EvolutionChain";
-import { SkillList } from "../../components/SkillList";
-import { PokemonStats } from "../../components/PokemonStats";
+import { PokemonPicture } from "../../../components/PokemonPicture";
+import { TypeInfo } from "../../../components/TypeInfo";
+import { EvolutionChain } from "../../../components/EvolutionChain";
+import { SkillList } from "../../../components/SkillList";
+import { PokemonStats } from "../../../components/PokemonStats";
 import { AnimatePresence, motion } from "framer-motion";
-import { AbilityData } from "../../components/AbilityData";
+import { AbilityData } from "../../../components/AbilityData";
 
 const hex2rgba = (hex: string = "#ffffff", alpha = 0.5) => {
   const [r, g, b] = hex.match(/\w\w/g)!.map((x) => parseInt(x, 16));
